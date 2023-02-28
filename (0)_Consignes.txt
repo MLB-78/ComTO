@@ -6,7 +6,7 @@ Le lien entre les agences et les fournisseur de brochures
 
 D'abord le front ensuite le Back
 
-Attendu Côté FRONT : 
+Attendu Côté FRONT (responsive) : 
 
 - page d'acceuil style Outlook pour expliquer le principe du site (minimaliste)
 - page de création de compte pour les agences et/ou fournisseurs
