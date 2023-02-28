@@ -1,0 +1,42 @@
+SITE ComTO (Inspirer fortement de logimail mais en mieux)
+Plusieurs version sortiront
+
+Site pour les agences de voyages 
+Le lien entre les agences et les fournisseur de brochures 
+
+D'abord le front ensuite le Back
+
+Attendu Côté FRONT : 
+
+- page d'acceuil style Outlook pour expliquer le principe du site (minimaliste)
+- page de création de compte pour les agences et/ou fournisseurs
+- page d'authentification pour les agences et/ou fournisseurs
+- page de compte pour agences et fournisseurs (s'ils ont réussi la connexion)
+- création de différente rubrique (mon compte, ComTO Histoire, ) 
+- les TO (à insérer avec laragon)
+
+
+
+Attendu Coté BACK (programmation) : 
+
+- Système de création de compte avec divers informations professionnel (php)
+- Système d'authentification (connexion avec mail et mdp) (php)
+- L'agence et le fournisseur auront 2 espaces différents si ils veulent s'inscrire ou s'identifier (php)
+- Une fois connecté afficher le nom du compte en haut à droite (php)
+- Remontrer les données rentré au préalable lors de la création du compte à l'utilisateur (js)
+- Faire en sorte qu'ils puissent les télécharger en format pdf (js)
+- Sécuriser au maximum les données de l'utilsateurs (via mail) (php ou js)
+- Faire en sorte que l'utilisateur (agence) passe une commande de brochure (php)
+- Qu'il puisse voir le récapitulatif (php)
+
+
+Attendu Coté BACK (base de données) : 
+
+- créer une bdd pour connaitre tous les utilisateurs ayant créer un compte chez nous
+- Si c'est une agence prendre : nom, prénom (directeur), adresse, sarl, nombre de salarié ...
+- Si c'est un fournisseur prendre : nom organisation, emplacement, prix de la brochure ...
+- créer une table avec tout les TO et leurs pays ciblé, naissances, 
+
+
+Technologie utilisée : Bootstrap, html, php, css, laragon, js natif, GIT
+Hébergeur utilisé : 000webhost ?
