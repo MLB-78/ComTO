@@ -35,7 +35,7 @@ Attendu Coté BACK (base de données) :
 - créer une bdd pour connaitre tous les utilisateurs ayant créer un compte chez nous
 - Si c'est une agence prendre : nom, prénom (directeur), adresse, sarl, nombre de salarié ...
 - Si c'est un fournisseur prendre : nom organisation, emplacement, prix de la brochure ...
-- créer une table avec tout les TO et leurs pays ciblé, naissances, 
+- créer une table avec tout les TO et leurs pays ciblé, naissances, et mettre des images de leur magazines à cotées
 
 
 Technologie utilisée : Bootstrap, html, php, css, laragon, js natif, GIT
