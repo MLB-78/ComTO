@@ -1,5 +1,7 @@
 *{
 
+    margin: 0%;
+    padding: 0px;
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Ruda', sans-serif;
@@ -88,9 +90,21 @@ body{
 
 .bloc2{
 
-
     background-color: whitesmoke;
     height: 400px;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 6px 0px;
+
+}
+
+.bloc3{
+
+    display: none;
+    background-color: whitesmoke;
+    height: 650px;
     padding: 20px;
     width: 60%;
     margin: auto;
@@ -111,9 +125,46 @@ h2{
 
 footer{
 
-height: 40px;
+    height: 250px;
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
 
 }
+
+.jo{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 50%;
+    margin: auto;
+    color: black;
+
+}
+
+a{
+
+    color: white;
+    cursor: pointer;
+
+}
+
+a[href="Accueil.php"]{
+
+    color: black;
+}
+
+a:hover{
+
+    color: gray;
+    text-decoration: none;
+
+
+}
+
+
+
 
 /* Media Queries  */
 
@@ -134,10 +185,35 @@ height: 40px;
 
     .bloc2{
 
-        min-width: 355px;
+        min-width: 350px;
 
     }
 
+ 
 
 }
 
+
+
+
+
+@media all and (max-width: 780px){
+
+    .bloc3{
+
+        min-height: 1000px;
+        min-width: 350px;
+
+    }
+
+    footer{
+
+        height: 315px;
+
+    }
+
+   
+
+   
+
+}
