@@ -163,6 +163,24 @@ a:hover{
 
 }
 
+.table-light{
+
+    border-radius: 6px;
+
+}
+
+.table td, .table th {
+    
+    border-top: none;
+}
+
+.titreListe{
+
+    color: aquamarine;
+    background-color: beige;
+
+}
+
 
 
 
