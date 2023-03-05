@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
-    <link rel="shortcut icon" href="Images/logoComto.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Styles/Style.css">
+    <link rel="shortcut icon" href="../Images/logoComto.png" type="image/x-icon">
     <title>ComTO - Accueil</title>
 </head>
 <body>
     
-<?php include "header.php" ?>
+<?php include "Header.php" ?>
 
 <div class="accueil">
 
+<br><br>
 
+  <h2>
+    
+    Identifiez vous afin de bénéficiez des meilleurs 
+    brochures tours opérateurs 
+  
+  </h2>
 
+  
 </div>
 
+<br><br>
 <!-- Btn connexion ou inscription avec JS (Guettez script NARUTO)-->
 <div class="bloc">
 
@@ -158,7 +167,7 @@
 
 
 
-<script src="Blocs.js"></script>
+<script src="../Script/Blocs.js"></script>
 
 </body>
 </html>

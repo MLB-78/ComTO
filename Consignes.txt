@@ -8,10 +8,7 @@ D'abord le front ensuite le Back
 
 Attendu Côté FRONT (responsive) : 
 
-- page d'acceuil style Outlook pour expliquer le principe du site (minimaliste)
 - page de compte pour agences et fournisseurs (s'ils ont réussi la connexion)
-- les TO (à insérer avec laragon)
-
 
 
 Attendu Coté BACK (programmation) : 

@@ -1,15 +1,17 @@
 *{
-
+    
     margin: 0%;
     padding: 0px;
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Ruda', sans-serif;
 
+
 }
 
 body{
 
+    color: black;
     background-color: rgb(15, 15, 148);
 
 }
@@ -52,7 +54,8 @@ body{
 
 .accueil{
 
-
+    color: white;
+    min-height: 140px;
     height: 100px;
     
 }
@@ -207,6 +210,12 @@ a:hover{
 
     }
 
+    .accueil{
+
+        color: white;
+        
+        
+    }
  
 
 }

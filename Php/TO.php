@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="../Styles/Style.css">
 
 <?php include "Header.php";  ?>
 <!-- Inclure sa page connexion -->
@@ -22,18 +22,19 @@ $TO=$req->fetchAll();
 
 ?>
 
-<br>
+
+<br><br>
 
 
 
 <div class="container">
-
-
-        <h1>Listes des tours opérateurs </h1>
+    
+    
+    <div class="accueil">
         
+        <h1>Listes des Tours Opérateurs </h1>
+    </div>
 
-
-    <br><br>
     
     <table class="table table-striped table-light">
 
@@ -46,14 +47,14 @@ $TO=$req->fetchAll();
 </thead>
 
 <tbody>
-
-<?php 
+    
+    <?php 
 
 foreach($TO as $To){
     
     
-// Tu as séléctionnez toutes la table tours donc tu as juste 
-// à ta variable qui contient tout plus le nom de ta tables existantes
+// Tu as séléctionnez toutes la table tours donc tu as juste  
+// à préciser à ta variable qui contient tout plus le nom de ta tables existantes
 
             echo"
             
@@ -73,5 +74,9 @@ foreach($TO as $To){
     </table>
 
 </div>
+
+<br><br>
+
+<?php include "Footer.php"; ?>
 
 
