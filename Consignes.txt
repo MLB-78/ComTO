@@ -13,6 +13,9 @@ Attendu Côté FRONT (responsive) :
 
 Attendu Coté BACK (programmation) : 
 
+concretement 
+
+
 - Système de création de compte avec divers informations professionnel (php)
 - Système d'authentification (connexion avec mail et mdp) (php)
 - L'agence et le fournisseur auront 2 espaces différents si ils veulent s'inscrire ou s'identifier (php)

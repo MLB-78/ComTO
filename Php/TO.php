@@ -32,7 +32,7 @@ $TO=$req->fetchAll();
     
     <div class="accueil">
         
-        <h1>Listes des Tours Opérateurs </h1>
+        <h1>Liste des Tours Opérateurs </h1>
     </div>
 
     

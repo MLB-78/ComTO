@@ -34,7 +34,7 @@
             
         <div class="btn1">
             
-            <button type="button" class="btn btn-outline-primary" id="connexion">Connexion</button>
+          <button type="button" class="btn btn-outline-primary" id="connexion">Connexion</button>
             
             
         </div>
@@ -43,7 +43,7 @@
     
         <div class="btn2">
             
-            <button type="button" class="btn btn-outline-warning" id="inscription">Inscription</button>
+            <button type="submit" class="btn btn-outline-warning" id="inscription">Inscription</button>
             
           
         </div>
@@ -71,20 +71,25 @@
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Mot de Passe *</label>
-            <input type="password" class="form-control" id="mdp" placeholder="Saisissez votre e-mail personnel" require="required">
+            <input type="password" class="form-control" id="mdp" placeholder="Saisissez votre mot de passe" require="required">
         </div>
         <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Se souvenir</label>
         </div>
-        <button type="submit" class="btn btn-primary">Valider</button>
+        <button type="submit" class="btn btn-primary" name="connexion">Valider</button>
     </form>
     
     
             
 </div>
 
-<!-- Formulaire (inscription) -->
+<!-- Back inscription -->
+
+<?php include "inscription.php"; ?>
+
+
+<!-- Formulaire front (inscription) -->
 
 
 <div class="bloc3">
@@ -93,16 +98,16 @@
 
 <br>
 
-<form>
+<form action="Adherant.php" method="post" enctype="multipart/form-data">
 
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="">Nom de l'agence*</label>
-      <input type="text" class="form-control" id="">
+      <input type="text" name="nomA" class="form-control" id="">
     </div>
     <div class="form-group col-md-6">
       <label for="">Nom et Prénom du Directeur</label>
-      <input type="text" class="form-control" id="">
+      <input type="text" name="nomD" class="form-control" id="">
     </div>
   </div>
 
@@ -145,7 +150,7 @@
     </div>
     <div class="form-group col-md-2">
       <label for="">N° de licence</label>
-      <input type="text" class="form-control" id="">
+      <input type="text" class="form-control" id="" name="licence">
     </div>
   </div>
 
@@ -153,7 +158,7 @@
 
   <br>
   
-  <button type="submit" class="btn btn-primary">Valider</button>
+  <button type="submit" class="btn btn-primary" name="inscription">Valider</button>
 </form>
 
 </div>
