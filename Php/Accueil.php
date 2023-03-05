@@ -84,9 +84,11 @@
             
 </div>
 
-<!-- Back inscription -->
 
-<?php include "inscription.php"; ?>
+
+<!-- Back pour l'inscription -->
+
+
 
 
 <!-- Formulaire front (inscription) -->
@@ -98,7 +100,7 @@
 
 <br>
 
-<form action="Adherant.php" method="post" enctype="multipart/form-data">
+<form action="Inscription.php" method="post" enctype="multipart/form-data">
 
   <div class="form-row">
     <div class="form-group col-md-6">
@@ -158,7 +160,7 @@
 
   <br>
   
-  <button type="submit" class="btn btn-primary" name="inscription">Valider</button>
+  <button type="submit" class="btn btn-primary" name="inscrire">Valider</button>
 </form>
 
 </div>

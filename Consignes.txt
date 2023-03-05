@@ -37,3 +37,12 @@ Attendu Coté BACK (base de données) :
 
 Technologie utilisée : Bootstrap, html, php, css, laragon, js natif, GIT
 Hébergeur utilisé : 000webhost ?
+
+// Acquis
+
+Récupération des données d'une bdd
+Utilisation de plusieurs éléments Bootstrap
+variable css
+utilisation de git pour de vrai
+Anticipation d'un projet 
+Arrangement propre des dossiers
