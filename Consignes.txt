@@ -8,7 +8,6 @@ D'abord le front ensuite le Back
 
 Attendu Côté FRONT (responsive) : 
 
-- page de compte pour agences et fournisseurs (s'ils ont réussi la connexion)
 
 
 Attendu Coté BACK (programmation) : 
@@ -18,8 +17,6 @@ concretement
 
 - Système de création de compte avec divers informations professionnel (php)
 - Système d'authentification (connexion avec mail et mdp) (php)
-- L'agence et le fournisseur auront 2 espaces différents si ils veulent s'inscrire ou s'identifier (php)
-- Une fois connecté afficher le nom du compte en haut à droite (php)
 - Remontrer les données rentré au préalable lors de la création du compte à l'utilisateur (js)
 - Faire en sorte qu'ils puissent les télécharger en format pdf (js)
 - Sécuriser au maximum les données de l'utilsateurs (via mail) (php ou js)

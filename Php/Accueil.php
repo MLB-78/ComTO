@@ -14,6 +14,8 @@
 
 <div class="accueil">
 
+<!-- Image à insérer -->
+
 <br><br>
 
   <h2>
@@ -85,85 +87,65 @@
 </div>
 
 
-
-<!-- Back pour l'inscription -->
-
-
-
-
 <!-- Formulaire front (inscription) -->
 
 
 <div class="bloc3">
 
-<h2>S'inscrire</h2>
-
-<br>
-
-<form action="Inscription.php" method="post" enctype="multipart/form-data">
-
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="">Nom de l'agence*</label>
-      <input type="text" name="nomA" class="form-control" id="">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="">Nom et Prénom du Directeur</label>
-      <input type="text" name="nomD" class="form-control" id="">
-    </div>
-  </div>
-
-  <div class="form-row">
-
-    <div class="form-group col-md-6">
-      <label for="">Email de l'agence*</label>
-      <input type="email" class="form-control" id="email" name="email">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="">Mot de Passe *</label>
-      <input type="password" class="form-control" id="mdp" name="mdp">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="">Adresse *</label>
-    <input type="text" class="form-control" id="adresse" name="adresse" placeholder="15 rue de la mortadelle">
-  </div>
-  <div class="form-group">
-    <label for="">N° de téléphone de l'agence *</label>
-    <input type="text" class="form-control" id="tel" name="tel" placeholder="06 XX XX XX 51">
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="">Ville *</label>
-      <input type="text" class="form-control" id="ville" name="ville">
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">Type d'agence</label>
-      <select id="inputState" class="form-control">
-        <option selected> -- Sélectionnez une option -- </option>
-        <option >Agence de Voyage</option>
-        <option >Commerce</option>
-        <option >Petite entreprise</option>
-        <option >Moyenne entreprise</option>
-        <option >Grandes entreprise</option>
-        <option >Autres</option>
-       
-      </select>
-    </div>
-    <div class="form-group col-md-2">
-      <label for="">N° de licence</label>
-      <input type="text" class="form-control" id="" name="licence">
-    </div>
-  </div>
-
-  <small class="form-text text-muted">Veillez à bien vérifier la fiabilité de vos informations</small>
+  <h2>S'inscrire</h2>
 
   <br>
-  
-  <button type="submit" class="btn btn-primary" name="inscrire">Valider</button>
-</form>
+
+  <form action="Inscription.php" method="post">
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="">Nom de l'agence*</label>
+        <input type="text" name="nomA" class="form-control" id="">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="">Nom et Prénom du Directeur</label>
+        <input type="text" name="nomD" class="form-control" id="">
+      </div>
+    </div>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-6">
+        <label for="">Email de l'agence*</label>
+        <input type="email" class="form-control" id="email" name="email">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="">Mot de Passe *</label>
+        <input type="password" class="form-control" id="mdp" name="mdp">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="">Adresse *</label>
+      <input type="text" class="form-control" id="adresse" name="adresse" placeholder="15 rue de la mortadelle">
+    </div>
+    <div class="form-group">
+      <label for="">N° de téléphone de l'agence *</label>
+      <input type="text" class="form-control" id="tel" name="tel" placeholder="06XX28XX74">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="">Ville *</label>
+        <input type="text" class="form-control" id="ville" name="ville">
+      </div>
+      
+    </div>
+
+    <small class="form-text text-muted">Veillez à bien vérifier la fiabilité de vos informations</small>
+
+    <br>
+    
+    <button type="submit" class="btn btn-primary" name="inscrire">Valider</button>
+  </form>
 
 </div>
+
+
 
 <br><br>
 

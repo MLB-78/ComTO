@@ -18,12 +18,6 @@
       <li class="nav-item">
         <a class="nav-link" href="TO.php">Listes des TO</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link">Mon Compte</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">Commander</a>
-      </li>
     </ul>
   </div>
 </nav>

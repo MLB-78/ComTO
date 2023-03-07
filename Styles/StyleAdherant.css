@@ -1,0 +1,58 @@
+body{
+
+    background-color: skyblue;
+    font-family: 'Asap', sans-serif;
+
+}
+
+.titreNom{
+
+    margin-left: 15px;
+
+}
+
+h1{
+
+    font-size: 30px;
+
+}
+
+/* Bootstrap */
+
+/* navbar modif  */
+
+/* link */
+.navbar-light .navbar-nav .nav-link {
+
+    color: blue;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+
+    color: brown;
+    font-weight: bold;
+    transform: scale(1.01);
+
+}
+
+
+/* titre */
+
+.navbar-light .navbar-brand {
+
+    color: brown;
+    font-weight: bold;
+    text-decoration:none;
+
+}
+
+.navbar-light .navbar-brand:hover {
+
+    color: brown;
+
+}
+
+/* Bloc 4 */
+
+
+
