@@ -31,7 +31,7 @@ Attendu Coté BACK (base de données) :
 - Si c'est un fournisseur prendre : nom organisation, emplacement, prix de la brochure ...
 - créer une table avec tout les TO et leurs pays ciblé, naissances, et mettre des images de leur magazines à cotées
 
-
+ 
 Technologie utilisée : Bootstrap, html, php, css, laragon, js natif, GIT
 Hébergeur utilisé : 000webhost ?
 
