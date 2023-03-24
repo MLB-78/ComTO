@@ -7,7 +7,7 @@ Côté FRONT :
 - [x] Une page Tours Opérateur 
 - [ ] Une page Historique 
 - [ ] Une page Adhérant 
-- [ ] Une page Mon proFIL
+- [ ] Une page Mon profil
 
 
 Coté BACK : 
@@ -31,8 +31,8 @@ Coté BDD :
 // Amélioration
 
 - [ ] Récupérer, ajouter, modifier, supprimer des données d'une bdd
-- [ ] Utilisation de plusieurs éléments Bootstrap
-- [ ] Variable css
-- [ ] Utilisation de git 
-- [ ] Anticipation d'un projet 
-- [ ] Méthode MVC
+- [x] Utilisation de plusieurs éléments Bootstrap
+- [x] Variable css
+- [x] Utilisation de git 
+- [x] Anticipation d'un projet 
+- [x] Méthode MVC
