@@ -30,7 +30,7 @@ Coté BDD :
 
 // Amélioration
 
-- [ ] Récupérer, ajouter, modifier, supprimer des données d'une bdd
+- [ ] CRUD : Récupérer, ajouter, modifier, supprimer des données d'une bdd
 - [x] Utilisation de plusieurs éléments Bootstrap
 - [x] Variable css
 - [x] Utilisation de git 
